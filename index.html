@@ -14,11 +14,44 @@
 
 <body>
 
+<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+  <div class="container">
+      <a class="navbar-brand" href="index.html">
+          <img src="https://instructure-uploads-pdx.s3.us-west-2.amazonaws.com/account_177400000000000001/attachments/454/JA_secondary_Logo.png" height="30" width="30" alt="JA Logo" />
+          JagTrack
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jagtrackNavbar">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="jagtrackNavbar">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="myclassesnextquarter.html">Next Quarter</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="aboutme.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="ai-chat.html">AI Chat</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#" id="theme-toggle">
+                      <span id="theme-icon">☀️</span>
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
 
    <header class="jumbotron jumbotron-fluid">
    <div class="container">
        <div class="row">
-           <div class="col">
+           <div class="col text-center">
                <h1>JagTrack</h1>
                <h2>Where i have to do slave labor in exchange for "knowledge"</h2>
            </div>
@@ -26,7 +59,6 @@
    </div>
    <div class="row align-items-center">
   <div class="col-4">
-      <img src="https://instructure-uploads-pdx.s3.us-west-2.amazonaws.com/account_177400000000000001/attachments/454/JA_secondary_Logo.png" alt="Jefferson Academy Logo" height="175px" />
   </div>
 
 </header>
@@ -38,6 +70,75 @@
        <h3>Current Quarter</h3>
        <p>Track all your classes, assignments, and deadlines in one place.</p>
    </div>
+
+
+
+<div class="container">
+  <div class="row">
+      <div class="col">
+          <h2 class="text-center">My Current Classes</h2>
+          <hr />
+      </div>
+  </div>
+
+
+  <ul class="nav nav-tabs" id="classTab" role="tablist">
+      <li class="nav-item">
+          <a class="nav-link active" id="a-block-tab" data-toggle="tab" href="#a-block" role="tab">A Block</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" id="b-block-tab" data-toggle="tab" href="#b-block" role="tab">B Block</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" id="c-block-tab" data-toggle="tab" href="#c-block" role="tab">C Block</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" id="d-block-tab" data-toggle="tab" href="#d-block" role="tab">D Block</a>
+      </li>
+  </ul>
+
+
+  <div class="tab-content" id="classTabContent">
+      <div class="tab-pane fade show active" id="a-block" role="tabpanel">
+          <div class="class-card">
+              <h4>A Block</h4>
+              <h5>Spanish I Section 1</h5>
+              <p>8:25 AM - 9:55 AM</p>
+              <a href="https://jajags.instructure.com/courses/3311" class="btn btn-primary">Go to Canvas →</a>
+          </div>
+      </div>
+
+
+      <div class="tab-pane fade" id="b-block" role="tabpanel">
+          <div class="class-card">
+               <h4>B Block</h4>
+               <h5>Mod. US History/Amer Studies Section 2</h5>
+               <p>10:00 AM - 11:30 AM</p>
+              <a href="https://jajags.instructure.com/courses/3310" target="_blank" class="btn btn-primary">Go to Canvas →</a>
+          </div>
+      </div>
+
+
+      <div class="tab-pane fade" id="c-block" role="tabpanel">
+          <div class="class-card">
+              <h4>C Block</h4>
+              <h5>Web Design in HTML & CSS</h5>
+              <p>12:15 PM - 1:45 PM</p>
+              <a href="https://jajags.instructure.com/courses/3438" class="btn btn-primary">Go to Canvas →</a>
+          </div>
+      </div>
+
+
+      <div class="tab-pane fade" id="d-block" role="tabpanel">
+          <div class="class-card">
+              <h4>D Block</h4>
+              <h5>English/Lang Arts 10 Section 1</h5>
+              <p>1:50 PM - 3:20 PM</p>
+              <a href="https://jajags.instructure.com/courses/3382" class="btn btn-primary">Go to Canvas →</a>
+          </div>
+      </div>
+  </div>
+</div>
 
 
   <div class="container">
@@ -129,7 +230,7 @@
                <h5>Quick Links</h5>
                <ul class="list-unstyled">
                    <li><a href="index.html">Home</a></li>
-                   <li><a href="#">My Classes</a></li>
+                   <li><a href="myclassesnextquarter.html">Next Quarter</a></li>
                    <li><a href="#">Resources</a></li>
                    <li><a href="#">Contact</a></li>
                </ul>
