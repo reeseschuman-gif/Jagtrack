@@ -6,7 +6,8 @@
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1" />
    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-   <title>JagTrack - Your Academic Success Hub</title>
+   <link rel="stylesheet" href="css/style.css" />
+   <title>JagTrack - schitzo version</title>
 </head>
 
 
@@ -14,25 +15,97 @@
 <body>
 
 
-   <header>
-       <div>
-           <h1>JagTrack</h1>
-           <h2>Your Academic Success Hub</h2>
+   <header class="jumbotron jumbotron-fluid">
+   <div class="container">
+       <div class="row">
+           <div class="col">
+               <h1>JagTrack</h1>
+               <h2>Where i have to do slave labor in exchange for "knowledge"</h2>
+           </div>
        </div>
-   </header>
+   </div>
+   <div class="row align-items-center">
+  <div class="col-4">
+      <img src="https://instructure-uploads-pdx.s3.us-west-2.amazonaws.com/account_177400000000000001/attachments/454/JA_secondary_Logo.png" alt="Jefferson Academy Logo" height="175px" />
+  </div>
+
+</header>
+
 
 
    <div>
-       <h2>My 4 Classes</h2>
+       <h2>My 4 slave jobs</h2>
        <h3>Current Quarter</h3>
        <p>Track all your classes, assignments, and deadlines in one place.</p>
    </div>
 
 
-   <!-- This empty div is where you'll add your Bootstrap schedule in Exercise 2 -->
-   <div id="schedule-section">
-       <!-- Your Bootstrap grid schedule will go here -->
+  <div class="container">
+   <div class="row row-content">
+       <div class="col-12 col-md-6 col-lg-3">
+           <div class="class-card">
+           <h4>A Block</h4>
+           <h5>Spanish I Section 1</h5>
+           <p>8:25 AM - 9:55 AM</p>
+           <a href="https://jajags.instructure.com/courses/3311">Go to Canvas →</a>
+           </div>
+       </div>
+       <div class="col-12 col-md-6 col-lg-3">
+           <div class="class-card">
+           <h4>B Block</h4>
+           <h5>Mod. US History/Amer Studies Section 2</h5>
+           <p>10:00 AM - 11:30 AM</p>
+           <a href="https://jajags.instructure.com/courses/3310" target="_blank">Go to Canvas →</a>
+           </div>
+       </div>
+       <div class="col-12 col-md-6 col-lg-3">
+           <div class="class-card">
+           <h4>C Block</h4>
+           <h5>Web Design in HTML & CSS</h5>
+           <p>12:15 PM - 1:45 PM</p>
+           <a href="https://jajags.instructure.com/courses/3438">Go to Canvas →</a>
+           </div>
+       </div>
+       <div class="col-12 col-md-6 col-lg-3">
+           <div class="class-card">
+           <h4>D Block</h4>
+           <h5>English/Lang Arts 10 Section 1</h5>
+           <p>1:50 PM - 3:20 PM</p>
+           <a href="https://jajags.instructure.com/courses/3382">Go to Canvas →</a>
+           </div>
+       </div>
    </div>
+</div>
+
+<div class="container">
+   <h3>Quick Links</h3>
+   <div class="row">
+       <div class="col-12 col-md-4">
+           <h5>📚 Academic</h5>
+           <ul>
+               <li><a href="https://jajags.instructure.com" target="_blank">Canvas</a></li>
+               <li><a href="https://secondary.jajags.com" target="_blank">JA Website</a></li>
+               <li><a href="#">Student Portal</a></li>
+           </ul>
+       </div>
+       <div class="col-12 col-md-4">
+           <h5>🔧 Tools</h5>
+           <ul>
+               <li><a href="https://github.com" target="_blank">GitHub</a></li>
+               <li><a href="https://code.visualstudio.com" target="_blank">VS Code</a></li>
+               <li><a href="https://getbootstrap.com/docs/4.5/" target="_blank">Bootstrap Docs</a></li>
+           </ul>
+       </div>
+       <div class="col-12 col-md-4">
+           <h5>📖 Resources</h5>
+           <ul>
+               <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+               <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></li>
+               <li><a href="#">Study Groups</a></li>
+           </ul>
+       </div>
+   </div>
+</div>
 
 
    <div>
@@ -49,28 +122,33 @@
    </div>
 
 
-   <footer>
-       <div>
-           <h5>Quick Links</h5>
-           <ul>
-               <li><a href="#">Home</a></li>
-               <li><a href="#">My Classes</a></li>
-               <li><a href="#">Resources</a></li>
-               <li><a href="#">Contact</a></li>
-           </ul>
+  <footer>
+   <div class="container">
+       <div class="row">
+           <div class="col-4 col-sm-2 offset-1">
+               <h5>Quick Links</h5>
+               <ul class="list-unstyled">
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="#">My Classes</a></li>
+                   <li><a href="#">Resources</a></li>
+                   <li><a href="#">Contact</a></li>
+               </ul>
+           </div>
+           <div class="col-6 col-sm-5 text-center">
+               <h5>Connect</h5>
+               <a href="#">Canvas Portal</a> |
+               <a href="#">Study Groups</a> |
+               <a href="#">Help Center</a>
+           </div>
+           <div class="col-sm-4 text-center">
+               <h5>Contact</h5>
+               Jefferson Academy Secondary<br />
+               Email: <strong>YOUR_EMAIL_HERE@jajags.com</strong> (Replace with your actual email!)
+           </div>
        </div>
-       <div>
-           <h5>Connect</h5>
-           <a href="#">Canvas Portal</a>
-           <a href="#">Email Teacher</a>
-           <a href="#">Study Groups</a>
-           <a href="#">Help Center</a>
-       </div>
-       <div>
-           Jefferson Academy Secondary<br />
-           Email: <strong>reese.schuman@jajags.com</strong>
-       </div>
-   </footer>
+   </div>
+</footer>
+
 
 
    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
